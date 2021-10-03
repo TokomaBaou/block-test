@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+/* clearfix用 */
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+/* ここから */
+/* 
+.clearfix {
+} */
+
+.container {
+  width: 400px;
+  height: 450px;
+
+  background-color: gray;
+}
+
+.head {
+  height: 100px;
+  background-color: #141f40;
+}
+
+.foot {
+  height: 100px;
+  background-color: #d98d30;
+}
+
+.first-content {
+  float: left;
+  width: 150px;
+  height: 250px;
+  background-color: #80bfa8;
+}
+.second-content {
+  width: 150px;
+  height: 50px;
+  background-color: #dbd400;
+}
+
+.third-content {
+  width: 150px;
+  height: 100px;
+  background-color: #0093b7;
+}
+
+.fourth-content {
+  float: right;
+  width: 100px;
+  height: 150px;
+  background-color: #ff9e6b;
+}
+
+.fifth-content {
+  width: 250px;
+  height: 100px;
+  background-color: #8c2727;
+}
+
+.right-wrapper {
+  float: right;
+}
+
+.left_top_wrapper {
+  float: left;
+}
