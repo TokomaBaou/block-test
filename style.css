@@ -14,7 +14,7 @@
 .container {
   width: 400px;
   height: 450px;
-
+  margin: 0 auto;
   background-color: gray;
 }
 
@@ -60,9 +60,11 @@
 }
 
 .right-wrapper {
+  width: 250px;
   float: right;
 }
 
 .left_top_wrapper {
+  width: 150px;
   float: left;
 }
